@@ -67,7 +67,7 @@ body, html{
     top: 50%;
     z-index: 5;
     text-align: center;
-    margin-top: -60px;
+    margin-top: -50px;
 }
 .titleMessage .heading .main {
 	font-size: 24px;
@@ -83,11 +83,10 @@ body, html{
 
 h5, .titleMessage .heading .sub{
 	font-family: 'Montserrat', sans-serif;
-
 }
 .titleMessage .heading .sub{
 	color: #ecf0f1;
-	font-size:100%;
+	font-size:0.8rem;
 	font-weight: 300;
 }
 
