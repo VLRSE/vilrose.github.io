@@ -356,7 +356,7 @@ height: fill-content;
 	color: #ffff;
 }
 
-.contactSection .body{
+.contactSection .bodyText{
 	padding-top: 50px;
 }
 /*Small devices*/
@@ -486,7 +486,7 @@ height: fill-content;
 	.aboutImage{
 		width:100%;
 		position: relative;	
-		margin-left: 5vw;
+		margin:5vh 5vw;
 		padding-right: 5vw;
 	}
 }

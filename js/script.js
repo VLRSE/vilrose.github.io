@@ -16,7 +16,8 @@ $(document).ready(function(){
 	});
 
 	var type = new Typed(".typed", {
-		strings: ["Aspiring Software Developer", "Autodidaktisch"],
+		strings: ["Aspiring Software Developer", "Java Developer", 
+		"Web Developer", "Back-end"],
 		typeSpeed: 70,
 		startDelay: 1000,
 		showCursor: false
