@@ -1,0 +1,500 @@
+body, html{
+	background-color: #2c3e50;
+    color: #ffff;
+    text-align: center;
+   	font-size: 100%;
+  	font-family: 'Merriweather', serif;
+	line-height: 1px;
+}
+
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.imageContainer{
+	position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 35%;
+    z-index: 8;
+    text-align: center;
+    margin-top: -200px;
+}
+
+.image{
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 50%;
+	z-index: 8;
+	position: absolute;
+	height: 50vh;
+	width: 200px;
+	left: 40%;
+	right: 40%;
+}
+
+.slides-navigation{
+	z-index: 6;
+}
+
+.slides-navigation .prev,
+.slides-navigation .next{
+	width: 47px;
+	height: 47px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev{
+	left: 50px;
+	background-image: url(../images/icons/icons8-back-50.png);
+}
+
+.slides-navigation a.next{
+	right: 50px;
+	background-image: url(../images/icons/icons8-forward-50.png);
+}
+
+.titleMessage{
+	position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -125px;
+}
+.titleMessage .heading .main {
+	font-size: 24px;
+	color: #ffff;
+}
+
+.titleMessage .heading p{
+	color: rgba(255,255,255,0.9);
+    text-align: center;
+    letter-spacing:5px;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+}
+
+h5, .titleMessage .heading .sub{
+	font-family: 'Montserrat', sans-serif;
+
+}
+.titleMessage .heading .sub{
+	color: #ecf0f1;
+	font-size:100%;
+	font-weight: 300;
+}
+
+.logo{
+	position: relative;
+	left:1.6666rem;
+}
+.loader{
+	width: 100%;
+	height: 100%;
+	background-color: #ffff;
+	position: fixed;
+	top: 0px;
+	left:0px;
+	z-index: 1000;
+}
+.loader .inner{
+	width: 100%;
+	height: 100%;
+	background: url("../images/preloaderGIF.gif") center center no-repeat;
+}
+.navbar-container { 
+background-color: #2c3e50;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8vh;
+  z-index: 50;
+}
+
+
+.nav-text{	
+	color:  white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+li a.active {   
+  border-bottom: 1px solid #F9A825;
+  padding-right: 5px;
+   transform: scale(1);
+}
+
+li a:hover {
+	color:#F9A825;
+	opacity: 1;
+	text-decoration: none;
+	border: 2px  solid #616161 ;
+	border-collapse: all;
+	opacity: 0.9;
+	background-color: #e67e22;
+	color: #ffff;
+}
+
+.section{
+	height:fill-content;
+	padding:20px 0 ;
+	background-color: #2c3e50;
+	overflow: hidden;
+
+}
+.bodyContent{
+	padding: 10px 0 10vh;
+}
+
+.aboutMeSection .bodyContent h2, 
+.skillsSection .bodyContent h2,
+.portfolioSection .bodyContent h2,
+.titleMessage .bodyContent h2,
+.contactSection .bodyContent h2{
+	color: #ffff;
+	line-height: 1.2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 25px 0 20px 0px;
+    font-size: 1.2em;
+}
+.aboutMeSection, .skillsSection{
+/*background-image:linear-gradient(to right, rgba(31,31,31,.5), rgba(31,31,31,.5) ), 
+	url('../images/images/me.jpg');
+	
+background-position: right;
+background-repeat: no-repeat;
+background-size: contain;
+height: 80%;
+*/
+background-color: #2c3e50;
+height: fill-content;
+
+}
+.aboutImage{
+	max-width: 100%;
+	width: 30vw;	
+	height: auto;
+	margin-left:30vw;
+	padding-bottom: 20px;
+	transform: translate3d(+10px, 0px, 0px);
+}
+
+.normalText{
+	color: #fafafa;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	
+}
+
+.normalText, .contactButton{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.skillsSection,
+.contactSection{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	color: #ffff;
+}
+
+.skillsSection{
+	background-image:linear-gradient(to right, rgba(31,31,31,.8), rgba(31,31,31,.8) ), 
+	url('../images/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg')
+	;
+	max-height: 100vh;
+	max-width: 100%;
+}
+
+.skill{
+	text-align: center;	
+	padding-top:10%;
+	margin-left: 10px;
+}
+
+.chart{
+	position: relative;
+	width: 152px;
+	height: 152px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+.chart canvas{
+	position: absolute;
+	top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+   
+
+.chart .percent{
+	color: #ffff;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.chart .percent:after {
+	content: '%';
+}
+
+.owl-nav{
+	font-size: 2em;	
+	display: block;
+	padding-left: 10vw;
+	display: inline-block;
+}
+
+
+.secondaryTextColor{
+	color: #BEC7D5;
+}
+
+.squareItem{
+	margin-top: 20px;
+	position: relative;	
+}
+
+.squareInnerContainer{
+	position: relative;
+    color: white;
+    padding: 30px 10px 35px;
+    text-align: center;
+    border: 2px solid #95a5a6;
+    border-top: none;
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after{
+	content:'';
+    position: absolute;
+    top: 0px;
+    width: 30%;
+    border-bottom: 2px solid #95a5a6;
+}
+
+.squareInnerContainer:before{
+	right: 0px;
+}
+
+.squareInnerContainer:after{
+	left:0px;
+}
+
+.squareContent h2{
+	color: #e67e22;
+    margin-bottom: 0px;
+    font-weight: 400;   
+}
+
+.squareIcon .fas{
+	color: #bdc3c7;
+	position:absolute;
+	left:50%;
+	top:-30px;
+	width:40%;
+	height:60px;
+	margin-left:-20%;
+}
+.githubImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	 margin-top: 5vh;
+	 background-color: #2c3e50;
+
+}
+.githubImage:hover{
+	opacity: 0.9;
+}
+.contactSection{
+	background-image:linear-gradient(to right, rgba(31,31,31,.8), rgba(31,31,31,.8) ), 
+	url('../images/pexels-markus-winkler-4160128.jpg')
+	;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	max-height: 80vh;
+}
+#contactBody{
+	padding-top: 10%;
+}
+
+.contactSection h5{
+	font-size: 1rem;
+}
+.contactButton{
+	border: 2px solid #e67e22;	
+    color: #e67e22;
+
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.contactButton:hover{
+	text-decoration: none;
+	background-color: #e67e22;
+	color: #ffff;
+}
+
+/*Small devices*/
+@media screen and (min-width: 576px){
+	
+	.section{
+		padding:3vh 0;
+	}
+
+	.aboutMeSection .bodyContent h2, 
+	.skillsSection .bodyContent h2,
+	.portfolioSection .bodyContent h2,
+	.titleMessage .bodyContent h2,
+	.contactSection .bodyContent h2{
+
+      font-size: 1.2em;
+	}
+	.normaText {
+		font-size: 1rem;
+		text-align: center;
+		line-height: 1px;
+		letter-spacing: 2pc;
+	}
+	.owl-carousel{
+		top: 10vh;
+	}
+}
+
+@media screen and (max-width: 767.8px) and (max-height: 360px){
+
+	.titleMessage{
+		margin-top: -25px;
+	    font-size: 1rem;
+	}
+	.aboutMeSection .bodyContent h2, 
+	.skillsSection .bodyContent h2,
+	.portfolioSection .bodyContent h2,
+	.titleMessage .bodyContent h2,
+	.contactSection .bodyContent h2{
+
+      font-size: 1em;
+	}
+.skillsSection {
+	height: fit-content;
+}
+
+	.normaText {
+		font-size: 0.5rem;
+		
+	}
+
+	.owl-carousel{
+		top: 3vh;
+	}
+
+	
+	.aboutImage{
+		width:25%;
+		position: relative;	
+		margin-left: 28vw;
+	}
+	h5{
+		font-size: 1rem;
+	}
+}
+ /*Medium devices*/
+@media screen and (min-width:768px) {
+
+	.titleMessage{
+		    margin-top: -25px;
+	}
+	.titleMessage .heading .main{
+		font-size: 2.2rem;
+		letter-spacing:2px;
+	}
+	.aboutMeSection .bodyContent h2,
+	.skillsSection .bodyContent h2,
+	.portfolioSection .bodyContent h2,
+	.titleMessage .bodyContent h2,
+	.contactSection .bodyContent h2{
+
+      font-size: 1.5em;
+	}
+	.normalText {
+		padding-top: 50px;
+		font-size: 0.9rem;
+	}
+	
+	.aboutImage{
+		width:30%;
+		position: relative;	
+		margin-left: 25vw;
+	}
+	.titleMessage .heading .main{
+		font-size: 2.2rem;
+		letter-spacing:2px;
+	}
+	.titleMessage .heading .sub{
+		font-size: 1.2rem;
+		letter-spacing:2px;
+	}
+	
+	.owl-nav{
+		font-size: 5vw;
+		display: block;
+		padding-left: 5px;
+		display: inline-block;
+	}
+}
+
+
+@media screen and (min-width:992px){
+
+	.titleMessage .heading .main{
+		font-size: 2.5rem;
+		letter-spacing:2px;
+	}
+	.aboutMeSection .bodyContent h2, 
+	.skillsSection .bodyContent h2,
+	.portfolioSection .bodyContent h2,
+	.titleMessage .bodyContent h2,
+	.contactSection .bodyContent h2{
+
+      font-size: 1.8em;
+	}
+	.nav-text{
+		font-size: 0.8rem;
+	}
+	.bodyContent{
+		padding-top: 100px;
+	}
+	.normalText {
+		padding-top: 20px;
+		font-size: 1rem;
+	}
+	.aboutMeText{
+		text-align: left;
+	}
+	.aboutImage{
+		width:100%;
+		position: relative;	
+		margin-left: 5vw;
+		padding-right: 5vw;
+	}
+}
