@@ -186,7 +186,7 @@ height: fill-content;
 	max-width: 100%;
 	width: 30vw;	
 	height: auto;
-	margin-left:30vw;
+	margin:5vh 30vw ;
 	padding-bottom: 20px;
 	transform: translate3d(+10px, 0px, 0px);
 }
@@ -343,20 +343,24 @@ height: fill-content;
 .contactButton{
     border: 2px solid #e67e22;
     color: #e67e22;
-<<<<<<< HEAD
-    padding: 10px 15px;
-    display: inline-block;
-    font-weight: 500;
-=======
+
     margin-top: 20px;
     padding: 10px 15px;
     display: inline-block;
     font-weight: 500;
     border-radius: 10px;
->>>>>>> update-version
+
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
+
+
+.contactSection .bodyText,
+.portfolioSection .bodyText,
+.aboutMeSection  .bodyText{
+	 margin-top: 50px;
+}
+
 
 .contactButton:hover{
 	text-decoration: none;
