@@ -145,7 +145,7 @@ li a:hover {
 }
 
 .section{
-	height:fill-content;
+	height:110vh;
 	padding:20px 0 ;
 	background-color: #2c3e50;
 	overflow: hidden;
@@ -335,16 +335,17 @@ height: fill-content;
 }
 
 .contactSection h5{
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
+
 .contactButton{
 	border: 2px solid #e67e22;	
     color: #e67e22;
-
+    margin-top: 20px;
     padding: 10px 15px;
     display: inline-block;
     font-weight: 500;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
@@ -355,6 +356,9 @@ height: fill-content;
 	color: #ffff;
 }
 
+.contactSection .body{
+	padding-top: 50px;
+}
 /*Small devices*/
 @media screen and (min-width: 576px){
 	
@@ -381,20 +385,7 @@ height: fill-content;
 	}
 }
 
-@media screen and (max-width: 767.8px) and (max-height: 360px){
 
-	.titleMessage{
-		margin-top: -25px;
-	    font-size: 1rem;
-	}
-	.aboutMeSection .bodyContent h2, 
-	.skillsSection .bodyContent h2,
-	.portfolioSection .bodyContent h2,
-	.titleMessage .bodyContent h2,
-	.contactSection .bodyContent h2{
-
-      font-size: 1em;
-	}
 .skillsSection {
 	height: fit-content;
 }
@@ -487,6 +478,7 @@ height: fill-content;
 	.normalText {
 		padding-top: 20px;
 		font-size: 1rem;
+		letter-spacing: 2px;
 	}
 	.aboutMeText{
 		text-align: left;
