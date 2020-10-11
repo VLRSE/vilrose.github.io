@@ -371,6 +371,18 @@ height: fill-content;
 .contactSection .bodyText{
 	padding-top: 50px;
 }
+
+.copyrightSection{
+	padding: 30px 5px
+}
+
+.copyrightSection p{
+
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
 /*Small devices*/
 @media screen and (min-width: 576px){
 	
