@@ -155,6 +155,11 @@ li a:hover {
 }
 .headingSub{
 	font-family: 'Montserrat', sans-serif;
+	color: #dcdde1;
+	font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
+    	font-weight: 500;
+    	letter-spacing: 1px;
 }
 
 .bodyContent{
@@ -196,7 +201,7 @@ height: fill-content;
 }
 
 .normalText{
-	color: #fafafa;
+	color: #dcdde1;
 	font-size: 0.8rem;
 	letter-spacing: 1px;
 	
