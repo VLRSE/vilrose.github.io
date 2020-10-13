@@ -174,7 +174,7 @@ li a:hover {
 	line-height: 1.2em;
     font-weight: bold;
     letter-spacing: 3px;
-    padding: 25px 0 20px 0px;
+    padding: 25px 0 5px 0px;
     font-size: 1.2em;
 }
 .aboutMeSection, .skillsSection{
@@ -201,7 +201,7 @@ height: fill-content;
 
 .normalText{
 	color: #dcdde1;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	letter-spacing: 1px;
 	
 }
