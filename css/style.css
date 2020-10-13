@@ -71,6 +71,8 @@ body, html{
 }
 .titleMessage .heading .main {
 	font-size: 24px;
+	font-weight: 800px;
+	letter-spacing: 1.5px;
 	color: #ffff;
 }
 
