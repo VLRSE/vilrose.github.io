@@ -153,16 +153,16 @@ li a:hover {
 	overflow: hidden;
 
 }
+
+.bodyContent{
+	padding: 10px 0 10vh;
+}
 .headingSub{
 	font-family: 'Montserrat', sans-serif;
 	color: #dcdde1;
         font-size: 0.8rem;
     	font-weight: 500;
     	letter-spacing: 1px;
-}
-
-.bodyContent{
-	padding: 10px 0 10vh;
 }
 
 .aboutMeSection .bodyContent h2, 
