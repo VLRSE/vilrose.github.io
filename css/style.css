@@ -470,11 +470,13 @@ height: fill-content;
 	.titleMessage .bodyContent h2,
 	.contactSection .bodyContent h2{
 
-      font-size: 1.5em;
+      		font-size: 1.5em;
+	}
+	.headingSub{
+		font-size: 0.9rem;
 	}
 	.normalText {
-		padding-top: 50px;
-		font-size: 0.9rem;
+		font-size: 0.8rem;
 	}
 	
 	.aboutImage{
