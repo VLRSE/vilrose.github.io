@@ -27,6 +27,7 @@ $(document).ready(function(){
 
 	//Owl Carousel
 	$('.owl-carousel').owlCarousel({
+	    autoplay:true,
 	    loop:true,
 	    items:4,
 	    nav:true,
